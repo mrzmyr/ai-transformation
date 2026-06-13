@@ -1,0 +1,21 @@
+flowchart LR
+    products["AI in Products"]:::products
+    workflow["Workflow<br/>Automation"]:::workflow
+    sdlc["SDLC"]:::sdlc
+    reporting["Reporting"]:::reporting
+    people["People"]:::people
+
+    products --> workflow --> sdlc --> reporting --> people
+
+    workflow -.-> workflow_note["Non-tech<br/>business processes<br/>internal"]:::note
+    sdlc -.-> sdlc_note["AI readiness<br/>per repo"]:::note
+    reporting -.-> reporting_note["How to make<br/>fast decisions"]:::note
+    people -.-> people_note["AI readiness<br/>per person"]:::note
+
+    classDef products fill:#8FE8D0,stroke:#111827,stroke-width:2px,color:#111827;
+    classDef workflow fill:#C8B6F3,stroke:#111827,stroke-width:2px,color:#111827;
+    classDef sdlc fill:#FFD9A3,stroke:#111827,stroke-width:2px,color:#111827;
+    classDef reporting fill:#E9DDD5,stroke:#111827,stroke-width:2px,color:#111827;
+    classDef people fill:#FFF1A8,stroke:#111827,stroke-width:2px,color:#111827;
+    classDef note fill:#FFFFFF,stroke:#FFFFFF,color:#111827;
+
