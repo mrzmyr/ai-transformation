@@ -1,10 +1,8 @@
 # AI Readiness Checklist
 
-Date: 2026-06-13
-
-Basis: original top 30 public `steipete` repos by stars, plus expanded scan of active public repos for newer agent, CI, SECURITY, PR, and service patterns. The extraction notes and top-30 evidence table live in [`research/steipete-top30.md`](research/steipete-top30.md).
-
-Goal: one canonical checklist that can later become an automated repo-readiness test. Detailed examples live in linked Markdown files, not in this checklist.
+> [!NOTE]
+> Goal: one canonical checklist that can later become an automated repo-readiness test.
+> Detailed examples live in linked Markdown files, not in this checklist.
 
 ## Checklist
 
