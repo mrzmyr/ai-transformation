@@ -20,8 +20,8 @@ Applies to every active repo.
 | [`TOOLING`](concepts/TOOLING.md) | repo pins or documents:<br>- runtime<br>- package manager<br>- install command<br>- lockfile policy |
 | [`CHECK`](concepts/CHECK.md) | primary green gate:<br>- is named `check`<br>- runs format/lint/typecheck/build/tests<br>- needs no secrets/live accounts |
 | [`CI`](concepts/CI.md) | CI runs:<br>- same `check` command<br>- or documented strict superset |
-| [`FOCUS`](concepts/FOCUS.md) | docs list:<br>- focused commands by change surface<br>- rule that `check` is still required before handoff |
-| [`VERIFICATION`](concepts/VERIFICATION.md) | `AGENTS.md` maps:<br>- change type<br>- required proof<br>- exact command |
+| [`COMMANDS`](concepts/COMMANDS.md) | docs list:<br>- focused commands by change surface<br>- rule that `check` is still required before handoff |
+| [`VERIFICATION_MATRIX`](concepts/VERIFICATION_MATRIX.md) | `AGENTS.md` maps:<br>- change type<br>- required proof<br>- exact command |
 | [`TESTING`](concepts/TESTING.md) | docs define:<br>- test types<br>- fixture locations<br>- naming pattern<br>- live-test gates |
 | [`SECURITY`](concepts/SECURITY.md) | `SECURITY.md` defines:<br>- private vulnerability reporting<br>- supported versions<br>- scope<br>- response expectations<br>- confidentiality |
 | [`SECRETS`](concepts/SECRETS.md) | agent rules forbid:<br>- secret logging<br>- broad env dumps<br>- unredacted auth headers/cookies<br>- private payload leaks |
