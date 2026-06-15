@@ -4,6 +4,11 @@
 
 # AI Readiness Checklist
 
+## AI Transformation Matrix
+
+The transformation areas matrix lives in
+[`ai-transformation-matrix/`](ai-transformation-matrix/).
+
 ### General
 
 Applies to every active repo.
